@@ -1,0 +1,5 @@
+# В репозитории хранятся переводы строк в виде LF.
+* text=auto eol=lf
+
+# Пакетный файл Windows требует CRLF, иначе cmd.exe его не выполнит.
+*.bat text eol=crlf
